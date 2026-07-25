@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   title: "Zarnaji — Full Stack Developer & Data Analyst",
   description:
     "Full Stack Developer specializing in Laravel, PHP, Python, and AI. I build real software — web apps, decision support systems, and computer vision solutions.",
+
+  verification: {
+    google: "CDIs6NsNr5FMKB-nb7_8dPYrD1GH3HPSUhts11euyYo",
+  },
+
   keywords: [
     "Full Stack Developer",
     "Laravel Developer",
@@ -31,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://aryapratama.dev",
+    url: "https://zarnaji.dev",
     title: "Zarnaji — Full Stack Developer & Data Analyst",
     description:
       "Full Stack Developer specializing in Laravel, PHP, Python, and AI. I build real software.",
@@ -40,7 +45,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Zarnaji — Full Stack Developer & Data Analyst",
-    description: "Full Stack Developer specializing in Laravel, PHP, Python, and AI.",
+    description:
+      "Full Stack Developer specializing in Laravel, PHP, Python, and AI.",
   },
   robots: {
     index: true,
