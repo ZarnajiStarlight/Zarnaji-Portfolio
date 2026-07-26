@@ -38,7 +38,7 @@ export default function Hero() {
       ══════════════════════════════════════════════ */}
         <motion.div
           aria-hidden="true"
-          className="absolute inset-0 pointer-events-none select-none hidden lg:block"
+          className="absolute inset-0 pointer-events-none select-none"
           style={{ zIndex: 1 }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -46,15 +46,9 @@ export default function Hero() {
         >
           {/* Floating wrapper */}
           <motion.div
-            className="absolute bottom-0"
+            className="absolute bottom-0 left-0 right-0 lg:left-[300px] lg:right-[280px] flex items-end justify-center opacity-30 lg:opacity-100"
             style={{
-              /* Geser foto ke tengah: kiri ~300px (area teks), kanan ~280px (panel) */
-              left: "300px",
-              right: "280px",
               height: "100%",
-              display: "flex",
-              alignItems: "flex-end",
-              justifyContent: "center",
             }}
             animate={{ y: [0, -12, 0] }}
             transition={{
@@ -91,7 +85,7 @@ export default function Hero() {
           />
           {/* Kiri (agar tidak menutupi teks) */}
           <div
-            className="absolute top-0 bottom-0 left-0"
+            className="absolute top-0 bottom-0 left-0 hidden lg:block"
             style={{
               width: "320px",
               background: "linear-gradient(to right, var(--bg) 55%, transparent 100%)",
@@ -99,7 +93,7 @@ export default function Hero() {
           />
           {/* Kanan (agar tidak menutupi panel) */}
           <div
-            className="absolute top-0 bottom-0 right-0"
+            className="absolute top-0 bottom-0 right-0 hidden lg:block"
             style={{
               width: "300px",
               background: "linear-gradient(to left, var(--bg) 40%, transparent 100%)",
@@ -116,7 +110,7 @@ export default function Hero() {
           style={{ zIndex: 2 }}
         >
           {/* ── KIRI: Teks + CTA (fleksibel) ── */}
-          <div className="flex flex-col justify-end pb-24 px-8 lg:px-14 pt-36 flex-1">
+          <div className="flex flex-col justify-center lg:justify-end pb-16 lg:pb-24 px-6 lg:px-14 pt-24 lg:pt-36 flex-1">
             {/* Garis dekoratif biru */}
             <motion.div
               initial={{ scaleX: 0, opacity: 0 }}
