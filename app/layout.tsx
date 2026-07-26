@@ -57,10 +57,9 @@ export const metadata: Metadata = {
       "Professional portfolio of Zarnaji, Full Stack Developer specializing in Laravel, PHP, Python, AI, and Data Analysis.",
     siteName: "Zarnaji Portfolio",
     locale: "en_US",
-
     images: [
       {
-        url: "/og-image.png",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
         alt: "Zarnaji Portfolio",
@@ -72,7 +71,7 @@ export const metadata: Metadata = {
     title: "Zarnaji — Full Stack Developer & Data Analyst",
     description:
       "Professional portfolio of Zarnaji.",
-    images: ["/og-image.png"],
+    images: ["/opengraph-image"],
   },
   robots: {
     index: true,
