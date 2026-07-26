@@ -8,8 +8,34 @@ import Certificates from "@/components/sections/Certificates";
 import Contact from "@/components/sections/Contact";
 
 export default function Home() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Zarnaji",
+    jobTitle: "Full Stack Developer & Data Analyst",
+    url: "https://zarnaji-portfolio.vercel.app",
+    sameAs: [
+      "https://github.com/Zarnaji",
+      "https://linkedin.com/in/zarnaji"
+    ],
+    knowsAbout: [
+      "Laravel",
+      "PHP",
+      "Next.js",
+      "Python",
+      "SQL",
+      "Data Analysis",
+      "Artificial Intelligence",
+      "Computer Vision"
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Hero />
       <About />
       <TechStack />
