@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://zarnaji.dev",
+    url: "https://zarnaji-portfolio.vercel.app",
     title: "Zarnaji — Full Stack Developer & Data Analyst",
     description:
       "Full Stack Developer specializing in Laravel, PHP, Python, and AI. I build real software.",

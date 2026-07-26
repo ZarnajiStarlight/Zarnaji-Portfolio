@@ -72,7 +72,7 @@ export default function Certificates() {
                   href={cert.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 flex items-center gap-1 text-xs font-medium transition-colors hover:text-[var(--accent)]"
+                  className="mt-3 flex items-center gap-1 text-xs font-medium transition-colors hover:text-(--accent)"
                   style={{ color: "var(--text-subtle)" }}
                 >
                   View credential
