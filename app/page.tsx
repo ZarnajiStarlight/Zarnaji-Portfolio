@@ -15,8 +15,8 @@ export default function Home() {
     jobTitle: "Full Stack Developer & Data Analyst",
     url: "https://zarnaji-portfolio.vercel.app",
     sameAs: [
-      "https://github.com/Zarnaji",
-      "https://linkedin.com/in/zarnaji"
+      "https://github.com/ZarnajiStarlight",
+      "https://www.linkedin.com/in/zarnajiizar/"
     ],
     knowsAbout: [
       "Laravel",

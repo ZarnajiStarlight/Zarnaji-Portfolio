@@ -9,29 +9,29 @@ const contactLinks = [
   {
     icon: GitHubIcon,
     label: "GitHub",
-    value: "github.com/yourusername",
-    href: "https://github.com/yourusername",
+    value: "github.com/ZarnajiStarlight",
+    href: "https://github.com/ZarnajiStarlight",
     description: "Lihat karya open source saya",
   },
   {
     icon: LinkedInIcon,
     label: "LinkedIn",
-    value: "linkedin.com/in/yourusername",
-    href: "https://linkedin.com/in/yourusername",
+    value: "linkedin.com/in/zarnajiizar",
+    href: "https://www.linkedin.com/in/zarnajiizar/",
     description: "Terhubung secara profesional",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "your@email.com",
-    href: "mailto:your@email.com",
+    value: "naji9296@gmail.com",
+    href: "mailto:naji9296@gmail.com",
     description: "Terbaik untuk pertanyaan formal",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "+62 xxx-xxxx-xxxx",
-    href: "https://wa.me/62xxxxxxxxxx",
+    value: "+62 877-9140-6271",
+    href: "https://wa.me/6287791406271",
     description: "Pertanyaan singkat dipersilakan",
   },
 ];
@@ -48,7 +48,7 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Mailto fallback
-    const mailtoLink = `mailto:your@email.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:naji9296@gmail.com?subject=${encodeURIComponent(
       formData.subject || "Portfolio Contact"
     )}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
@@ -176,8 +176,8 @@ export default function Contact() {
                   </p>
                   <p className="text-sm" style={{ color: "var(--text-muted)" }}>
                     Jika tidak terbuka, kirim email langsung ke{" "}
-                    <a href="mailto:your@email.com" className="underline" style={{ color: "var(--accent)" }}>
-                      your@email.com
+                    <a href="mailto:naji9296@gmail.com" className="underline" style={{ color: "var(--accent)" }}>
+                      naji9296@gmail.com
                     </a>
                   </p>
                 </div>
@@ -210,7 +210,7 @@ export default function Contact() {
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        placeholder="your@email.com"
+                        placeholder="naji9296@gmail.com"
                         className="w-full px-4 py-3 rounded-xl text-sm border border-[var(--border)] outline-none transition-colors duration-200 focus:border-[var(--accent)] placeholder:text-[var(--text-subtle)]"
                         style={{
                           background: "var(--bg-secondary)",

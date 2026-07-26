@@ -11,10 +11,10 @@ const footerLinks = [
 ];
 
 const socialLinks = [
-  { icon: GitHubIcon, label: "GitHub", href: "https://github.com/yourusername" },
-  { icon: LinkedInIcon, label: "LinkedIn", href: "https://linkedin.com/in/yourusername" },
-  { icon: Mail, label: "Email", href: "mailto:your@email.com" },
-  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/62xxxxxxxxxx" },
+  { icon: GitHubIcon, label: "GitHub", href: "https://github.com/ZarnajiStarlight" },
+  { icon: LinkedInIcon, label: "LinkedIn", href: "https://www.linkedin.com/in/zarnajiizar/" },
+  { icon: Mail, label: "Email", href: "mailto:naji9296@gmail.com" },
+  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/6287791406271" },
 ];
 
 export default function Footer() {
